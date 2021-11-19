@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Sarala:wght@700&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  padding-top: 90%;
+  color: white;
+  font-family: montserrat;
+  font-size: 90px;
+  letter-spacing: 0.3em;
+}
+
+.explanation{
+  padding-left: 4%;
+  color: white;
+  font-size: 18px;
+}
+
+.tombol{
+  margin-left: 4%;
+  color: white;
+}
+
+.tom1 {
+  position: relative;
+  width: 130px;
+  height: 35px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #000;
+  background-color: rgb(20, 216, 216);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: -100px;
+  margin-left: -130px;
+}
+
+.tom1:hover {
+  background-color: #2ee59d;
+  border: none;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: rgb(0, 0, 0);
+  transform: translateY(-7px);
+}
+
+@media screen and (max-width: 1024px) {
+  .title{
+    padding-top: 90%;
+    font-family: montserrat;
+    font-size: 70px;
+  }
+
+  .explanation{
+    color: white;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title{
+    padding-top: 90%;
+    font-family: montserrat;
+    font-size: 50px;
+  }
+
+  .explanation{
+    color: white;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title{
+    padding-top: 50%;
+    font-family: montserrat;
+    font-size: 70px;
+    letter-spacing: 0.5em;
+  }
+
+  .explanation{
+    color: white;
+    font-size: 12px;
+    padding-left: 14%;
+  }
+
+  .tombol{
+    margin-left: 14%;
+  }
+
+  video{
+    display: none;
+  }
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Sarala:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
+.krosel img{
+    object-fit: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.h11 {
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 6px darkgray;
+}
+
+.h55 {
+    font-family: "Shadows Into Light"; 
+    font-style: normal; 
+    font-variant: normal; 
+    color: white;
+}
+
+.card {
+    border: none;
+    margin-left: -90px;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.jarak {
+    margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.jarakItem {
+    height: 420px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+@media (max-width: 991px) {
+
+    .card {
+        border: none;
+        margin-left: 20px;
+        margin-top: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .jarak {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.jarakItem {
+    height: 420px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+

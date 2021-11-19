@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Sarala:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+.Judul {
+    font-family: "Shadows Into Light"; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 15.4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .hilang{
+      display: none;
+    }
+
+    .galeri{
+    margin-top: 1em;
+    }
+
+    .jarak{
+        margin-top: 1em;
+    }
+}
+
+.galeri img {
+    filter: grayscale(1) brightness(0.5);
+}
+
+.galeri img:hover{
+    filter: grayscale(0) brightness(1);
+}
+
+.bg-color{
+    background-color: #f3f5f6;
+  }
+
+.jarak {
+    margin-top: 1em;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.card {
+    border: none;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
+    /* margin-top: -300px; */
+  }
+  
+  .textarea {
+    width: 1020px;
+    height: 200px;
+    margin-bottom: 170px;
+    border-radius: 15px;
+  }
+  
+  .field textarea {
+    padding: 15px;
+    font-size: 14px;
+  }
+  
+  .button-textarea {
+    position: relative;
+    width: 130px;
+    height: 35px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(20, 216, 216);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: -100px;
+    margin-left: -130px;
+  }
+  
+  .button-textarea:hover {
+    background-color: #2ee59d;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: rgb(0, 0, 0);
+    transform: translateY(-7px);
+  }
+  

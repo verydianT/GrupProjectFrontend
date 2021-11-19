@@ -1,0 +1,10 @@
+.highlight:hover {
+  transition: 0.2s all ease-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* position: absolute; */
+  opacity: 0.5;
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+}
